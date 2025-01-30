@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">oGo</string>
+    <string name="version">version</string>
+    <string name="copyright">\u00a9 Copyright Appin Design 2012-2013. All rights reserved.\n\nwww.appindesign.com/ogo</string>
+    <string name="starts">Starts</string>
+    <string name="zero">0</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Warning">Warning</string>
+    <string name="event_default_warning">\"Default Event\" will set the event name, course names, start intervals and start button colours to their default values.\n\nDo you wish to continue?</string>
+	<string name="OK">OK</string>
+	<string name="show">Show</string>
+	<string name="hide">Hide</string>
+	<string name="remove">Remove</string>
+	
+<!-- Alert Dialogues -->
+	<string name="title_starts_locked">Starts are locked</string>
+	<string name="how_to_unlock_starts">Press the starts counter to unlock.</string>	
+	
+<!-- Colour names -->
+    <string name="Blank">Blank</string>
+    <string name="Black">Black</string>
+    <string name="Brown">Brown</string>
+    <string name="Blue">Blue</string>
+    <string name="Light_Blue">Light Blue</string>
+    <string name="Green">Green</string>
+    <string name="Light_Green">Light Green</string>
+    <string name="Red">Red</string>
+    <string name="Orange">Orange</string>
+    <string name="Yellow">Yellow</string>
+    <string name="White">White</string>
+
+<!-- Default event types -->    
+    <string name="default_event_type_1">Event 1</string>
+    <string name="default_event_type_2">Event 2</string>
+    <string name="default_event_type_3">Event 3</string>
+    <string name="default_event_type_4">Event 4</string>   
+        
+<!-- Default course name -->
+	<string name="default_course_name"></string>
+
+<!-- Default start button colour -->
+	<string name="default_start_button_color">bk_black</string>
+
+<!-- Default course interval -->
+    <string name="default_course_interval">120000</string>
+    
+<!-- Default visibility interval -->
+    <string name="default_course_visibility">true</string>    
+
+<!-- Interval descriptions -->
+    <string name="interval_description_1">10 seconds</string> 
+    <string name="interval_description_2">30 seconds</string>
+    <string name="interval_description_2b">45 seconds</string>    
+    <string name="interval_description_3">1 minute</string>
+    <string name="interval_description_3b">1 minute 30 seconds</string>    
+    <string name="interval_description_4">2 minutes</string>
+    <string name="interval_description_5">3 minutes</string>
+    <string name="interval_description_6">4 minutes</string>
+    <string name="interval_description_7">5 minutes</string>
+    <string name="interval_description_8">10 minutes</string>         
+
+<!-- Options menu -->    
+    <string name="menu_select_event">Choose Event</string>
+    <string name="menu_event_settings">Event Settings</string>
+    <string name="menu_default_event">Default Event</string>
+    <string name="menu_alerts">Alerts</string>
+    <string name="menu_zero_event">Zero</string>
+    <string name="menu_about">About</string>   
+
+<!-- Event Type Selection Alert Dialog -->    
+    <string name="pref_key_event">event</string>
+    <string name="event_type">Event</string>
+    
+<!-- Event Type Preferences -->
+    <string name="pref_category_event_types">Event Name</string>
+    <string name="pref_title_event_type">Event Name</string>
+    <string name="pref_summary_event_type">Enter the name of the event</string>        
+    <string name="pref_key_event_type">eventtype</string>
+    <string name="pref_key_event_type_1">eventtype1</string>
+    <string name="pref_key_event_type_2">eventtype2</string>    
+    <string name="pref_key_event_type_3">eventtype3</string>
+    <string name="pref_key_event_type_4">eventtype4</string> 
+      
+   	<!-- Course Preferences - generic strings -->
+    <string name="pref_title_course_name">Name</string>
+    <string name="pref_title_interval">Start Interval</string>
+    <string name="pref_title_course_color">Start Button Colour</string>
+    <string name="pref_title_course_visibility">Visibility</string>
+
+    <string name="pref_summary_course_name">Enter course name</string>
+    <string name="pref_summary_course_color">Select start button colour</string>
+    <string name="pref_summary_interval">Select start interval</string>
+    <string name="pref_summary_visibility">Set course visibility</string>
+
+    <string name="pref_key_name_course">namecourse</string>
+    <string name="pref_key_color_course">colorcourse</string>
+    <string name="pref_key_interval_course">intervalcourse</string>
+    <string name="pref_key_visibility_course">visibilitycourse</string>
+
+	<!-- Course Preferences -->    
+    <string name="pref_category_course1">Course 1</string>
+    <string name="pref_category_course2">Course 2</string>    
+    <string name="pref_category_course3">Course 3</string>    
+    <string name="pref_category_course4">Course 4</string>    
+    <string name="pref_category_course5">Course 5</string>    
+    <string name="pref_category_course6">Course 6</string>    
+    <string name="pref_category_course7">Course 7</string>    
+    <string name="pref_category_course8">Course 8</string>    
+    <string name="pref_category_course9">Course 1</string>    
+    <string name="pref_category_course10">Course 2</string>    
+    <string name="pref_category_course11">Course 3</string>    
+    <string name="pref_category_course12">Course 4</string>    
+    <string name="pref_category_course13">Course 5</string>    
+    <string name="pref_category_course14">Course 6</string>    
+    <string name="pref_category_course15">Course 7</string>    
+    <string name="pref_category_course16">Course 8</string>    
+    <string name="pref_category_course17">Course 1</string>    
+    <string name="pref_category_course18">Course 2</string>    
+    <string name="pref_category_course19">Course 3</string>    
+    <string name="pref_category_course20">Course 4</string>    
+    <string name="pref_category_course21">Course 5</string>    
+    <string name="pref_category_course22">Course 6</string>    
+    <string name="pref_category_course23">Course 7</string>    
+    <string name="pref_category_course24">Course 8</string>    
+    <string name="pref_category_course25">Course 1</string>    
+    <string name="pref_category_course26">Course 2</string>    
+    <string name="pref_category_course27">Course 3</string>    
+    <string name="pref_category_course28">Course 4</string>    
+    <string name="pref_category_course29">Course 5</string>    
+    <string name="pref_category_course30">Course 6</string>    
+    <string name="pref_category_course31">Course 7</string>    
+    <string name="pref_category_course32">Course 8</string>    
+
+    <string name="pref_key_color_course1">colorcourse1</string>
+    <string name="pref_key_color_course2">colorcourse2</string>
+    <string name="pref_key_color_course3">colorcourse3</string>
+    <string name="pref_key_color_course4">colorcourse4</string>
+    <string name="pref_key_color_course5">colorcourse5</string>
+    <string name="pref_key_color_course6">colorcourse6</string>
+    <string name="pref_key_color_course7">colorcourse7</string>
+    <string name="pref_key_color_course8">colorcourse8</string>     
+    <string name="pref_key_color_course9">colorcourse9</string>     
+    <string name="pref_key_color_course10">colorcourse10</string>     
+    <string name="pref_key_color_course11">colorcourse11</string>  
+    <string name="pref_key_color_course12">colorcourse12</string>  
+    <string name="pref_key_color_course13">colorcourse13</string>  
+    <string name="pref_key_color_course14">colorcourse14</string>  
+    <string name="pref_key_color_course15">colorcourse15</string>  
+    <string name="pref_key_color_course16">colorcourse16</string>  
+    <string name="pref_key_color_course17">colorcourse17</string>     
+    <string name="pref_key_color_course18">colorcourse18</string>     
+    <string name="pref_key_color_course19">colorcourse19</string>  
+    <string name="pref_key_color_course20">colorcourse20</string>  
+    <string name="pref_key_color_course21">colorcourse21</string>  
+    <string name="pref_key_color_course22">colorcourse22</string>  
+    <string name="pref_key_color_course23">colorcourse23</string>  
+    <string name="pref_key_color_course24">colorcourse24</string>  
+    <string name="pref_key_color_course25">colorcourse25</string>     
+    <string name="pref_key_color_course26">colorcourse26</string>     
+    <string name="pref_key_color_course27">colorcourse27</string>  
+    <string name="pref_key_color_course28">colorcourse28</string>  
+    <string name="pref_key_color_course29">colorcourse29</string>  
+    <string name="pref_key_color_course30">colorcourse30</string>  
+    <string name="pref_key_color_course31">colorcourse31</string>  
+    <string name="pref_key_color_course32">colorcourse32</string>
+
+    <string name="pref_key_interval_course1">intervalcourse1</string>
+    <string name="pref_key_interval_course2">intervalcourse2</string>
+    <string name="pref_key_interval_course3">intervalcourse3</string>
+    <string name="pref_key_interval_course4">intervalcourse4</string>
+    <string name="pref_key_interval_course5">intervalcourse5</string>
+    <string name="pref_key_interval_course6">intervalcourse6</string>
+    <string name="pref_key_interval_course7">intervalcourse7</string>
+    <string name="pref_key_interval_course8">intervalcourse8</string>
+    <string name="pref_key_interval_course9">intervalcourse9</string>
+    <string name="pref_key_interval_course10">intervalcourse10</string>
+    <string name="pref_key_interval_course11">intervalcourse11</string>
+    <string name="pref_key_interval_course12">intervalcourse12</string>
+    <string name="pref_key_interval_course13">intervalcourse13</string>
+    <string name="pref_key_interval_course14">intervalcourse14</string>
+    <string name="pref_key_interval_course15">intervalcourse15</string>
+    <string name="pref_key_interval_course16">intervalcourse16</string>
+    <string name="pref_key_interval_course17">intervalcourse17</string>
+    <string name="pref_key_interval_course18">intervalcourse18</string>
+    <string name="pref_key_interval_course19">intervalcourse19</string>
+    <string name="pref_key_interval_course20">intervalcourse20</string>
+    <string name="pref_key_interval_course21">intervalcourse21</string>
+    <string name="pref_key_interval_course22">intervalcourse22</string>
+    <string name="pref_key_interval_course23">intervalcourse23</string>
+    <string name="pref_key_interval_course24">intervalcourse24</string>
+    <string name="pref_key_interval_course25">intervalcourse25</string>
+    <string name="pref_key_interval_course26">intervalcourse26</string>
+    <string name="pref_key_interval_course27">intervalcourse27</string>
+    <string name="pref_key_interval_course28">intervalcourse28</string>
+    <string name="pref_key_interval_course29">intervalcourse29</string>
+    <string name="pref_key_interval_course30">intervalcourse30</string>
+    <string name="pref_key_interval_course31">intervalcourse31</string>
+    <string name="pref_key_interval_course32">intervalcourse32</string>
+
+    <string name="pref_key_name_course1">namecourse1</string>
+    <string name="pref_key_name_course2">namecourse2</string>
+    <string name="pref_key_name_course3">namecourse3</string>
+    <string name="pref_key_name_course4">namecourse4</string>
+    <string name="pref_key_name_course5">namecourse5</string>
+    <string name="pref_key_name_course6">namecourse6</string>
+    <string name="pref_key_name_course7">namecourse7</string>
+    <string name="pref_key_name_course8">namecourse8</string>
+    <string name="pref_key_name_course9">namecourse9</string>
+    <string name="pref_key_name_course10">namecourse10</string>
+    <string name="pref_key_name_course11">namecourse11</string>
+    <string name="pref_key_name_course12">namecourse12</string>
+    <string name="pref_key_name_course13">namecourse13</string>
+    <string name="pref_key_name_course14">namecourse14</string>
+    <string name="pref_key_name_course15">namecourse15</string>
+    <string name="pref_key_name_course16">namecourse16</string>
+    <string name="pref_key_name_course17">namecourse17</string>
+    <string name="pref_key_name_course18">namecourse18</string>
+    <string name="pref_key_name_course19">namecourse19</string>
+    <string name="pref_key_name_course20">namecourse20</string>
+    <string name="pref_key_name_course21">namecourse21</string>
+    <string name="pref_key_name_course22">namecourse22</string>
+    <string name="pref_key_name_course23">namecourse23</string>
+    <string name="pref_key_name_course24">namecourse24</string>
+    <string name="pref_key_name_course25">namecourse25</string>
+    <string name="pref_key_name_course26">namecourse26</string>
+    <string name="pref_key_name_course27">namecourse27</string>
+    <string name="pref_key_name_course28">namecourse28</string>
+    <string name="pref_key_name_course29">namecourse29</string>
+    <string name="pref_key_name_course30">namecourse30</string>
+    <string name="pref_key_name_course31">namecourse31</string>
+    <string name="pref_key_name_course32">namecourse32</string>
+
+    <string name="pref_key_visibility_course1">visibilitycourse1</string>
+    <string name="pref_key_visibility_course2">visibilitycourse2</string>
+    <string name="pref_key_visibility_course3">visibilitycourse3</string>
+    <string name="pref_key_visibility_course4">visibilitycourse4</string>
+    <string name="pref_key_visibility_course5">visibilitycourse5</string>
+    <string name="pref_key_visibility_course6">visibilitycourse6</string>
+    <string name="pref_key_visibility_course7">visibilitycourse7</string>
+    <string name="pref_key_visibility_course8">visibilitycourse8</string>
+    <string name="pref_key_visibility_course9">visibilitycourse9</string>
+    <string name="pref_key_visibility_course10">visibilitycourse10</string>
+    <string name="pref_key_visibility_course11">visibilitycourse11</string>
+    <string name="pref_key_visibility_course12">visibilitycourse12</string>
+    <string name="pref_key_visibility_course13">visibilitycourse13</string>
+    <string name="pref_key_visibility_course14">visibilitycourse14</string>
+    <string name="pref_key_visibility_course15">visibilitycourse15</string>
+    <string name="pref_key_visibility_course16">visibilitycourse16</string>
+    <string name="pref_key_visibility_course17">visibilitycourse17</string>
+    <string name="pref_key_visibility_course18">visibilitycourse18</string>
+    <string name="pref_key_visibility_course19">visibilitycourse19</string>
+    <string name="pref_key_visibility_course20">visibilitycourse20</string>
+    <string name="pref_key_visibility_course21">visibilitycourse21</string>
+    <string name="pref_key_visibility_course22">visibilitycourse22</string>
+    <string name="pref_key_visibility_course23">visibilitycourse23</string>
+    <string name="pref_key_visibility_course24">visibilitycourse24</string>
+    <string name="pref_key_visibility_course25">visibilitycourse25</string>
+    <string name="pref_key_visibility_course26">visibilitycourse26</string>
+    <string name="pref_key_visibility_course27">visibilitycourse27</string>
+    <string name="pref_key_visibility_course28">visibilitycourse28</string>
+    <string name="pref_key_visibility_course29">visibilitycourse29</string>
+    <string name="pref_key_visibility_course30">visibilitycourse30</string>
+    <string name="pref_key_visibility_course31">visibilitycourse31</string>
+    <string name="pref_key_visibility_course32">visibilitycourse32</string>
+        
+<!-- Alert Preferences Screen -->
+    <string name="pref_category_alerts">Alert Settings</string>
+
+    <string name="pref_sound_title">Sound</string>
+    <string name="pref_sound_key">sound</string>
+    <string name="pref_sound_on_summary">Sound On</string>
+    <string name="pref_sound_off_summary">Sound Off</string>
+
+    <string name="pref_vibration_title">Vibration</string>
+    <string name="pref_vibration_key">vibration</string>
+    <string name="pref_vibration_on_summary">Vibration On</string>
+    <string name="pref_vibration_off_summary">Vibration Off</string>  
+    
+</resources>
+

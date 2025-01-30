@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>    
+
+	<color name="oGo_Red">#FF0000</color>
+	<color name="oGo_Grey">#888</color>
+    
+	<!-- Start button colours -->
+    <color name="oGo_White_Start">#FFFFFF</color>	
+	<color name="oGo_White_End">#CCCCCC</color>	
+	<color name="oGo_Yellow_Start">#FFFF99</color>
+	<color name="oGo_Yellow_End">#FFFF00</color>
+	<color name="oGo_Orange_Start">#F3AE1B</color>
+	<color name="oGo_Orange_End">#BB6008</color>
+	<color name="oGo_Red_Start">#EF4444</color>
+	<color name="oGo_Red_End">#992F2F</color>
+	<color name="oGo_Green_Start">#70C656</color>
+	<color name="oGo_Green_End">#53933F</color>
+	<color name="oGo_Light_Green_Start">#CBFF9C</color>
+	<color name="oGo_Light_Green_End">#97FF74</color>	
+	<color name="oGo_Blue_Start">#449DEF</color>
+	<color name="oGo_Blue_End">#2F6699</color>
+	<color name="oGo_Light_Blue_Start">#A2FFFF</color>
+	<color name="oGo_Light_Blue_End">#69F3FF</color>		
+	<color name="oGo_Brown_Start">#BE8C5E</color>
+	<color name="oGo_Brown_End">#996A3D</color>
+    <color name="oGo_Black_Start">#343434</color>
+    <color name="oGo_Black_End">#171717</color>
+
+</resources>

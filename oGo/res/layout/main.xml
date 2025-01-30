@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<!-- Title Row -->
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1">
+		<TextView
+			android:id="@+id/App_name"
+			android:text="@string/app_name"
+			style="@style/Title"
+			android:layout_weight="1">
+		</TextView>  
+		<TextView
+			android:id="@+id/Event"
+			style="@style/Title"
+			android:layout_weight="3">
+		</TextView>
+		<TextView
+		   android:id="@+id/Starts"
+		   style="@style/Title"
+		   android:layout_weight="1">
+		</TextView>	
+	</LinearLayout> 
+	    
+	<!-- Courses -->
+	<TableLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:stretchColumns="*"
+	    android:layout_weight="8">
+		<TableRow android:layout_weight="1" android:id="@+id/Row1">
+			<Button
+			   android:id="@+id/Count1"
+			   style="@style/Counter">
+			</Button>
+			<ImageButton
+			   android:id="@+id/Man1"
+			   style="@style/Man">
+			</ImageButton>
+			<Button
+			   android:id="@+id/Start1"
+			   style="@style/StartButton">
+			</Button>
+		</TableRow>		
+		<TableRow android:layout_weight="1" android:id="@+id/Row2">
+			<Button
+			   android:id="@+id/Count2"
+			   style="@style/Counter">
+			</Button>
+			<ImageButton
+			   android:id="@+id/Man2"
+			   style="@style/Man">
+			</ImageButton>
+			<Button
+			   android:id="@+id/Start2"
+			   style="@style/StartButton">
+			</Button>
+		</TableRow>		
+		<TableRow android:layout_weight="1" android:id="@+id/Row3">
+			<Button
+			   android:id="@+id/Count3"
+			   style="@style/Counter">
+			</Button>
+			<ImageButton
+			   android:id="@+id/Man3"
+			   style="@style/Man">
+			</ImageButton>
+			<Button
+			   android:id="@+id/Start3"
+			   style="@style/StartButton">
+			</Button>
+		</TableRow>		
+		<TableRow android:layout_weight="1" android:id="@+id/Row4">
+			<Button
+			   android:id="@+id/Count4"
+			   style="@style/Counter">
+			</Button>
+			<ImageButton
+			   android:id="@+id/Man4"
+			   style="@style/Man">
+			</ImageButton>
+			<Button
+			   android:id="@+id/Start4"
+			   style="@style/StartButton">
+			</Button>
+		</TableRow>		
+		<TableRow android:layout_weight="1" android:id="@+id/Row5">
+			<Button
+			   android:id="@+id/Count5"
+			   style="@style/Counter">
+			</Button>
+			<ImageButton
+			   android:id="@+id/Man5"
+			   style="@style/Man">
+			</ImageButton>
+			<Button
+			   android:id="@+id/Start5"
+			   style="@style/StartButton">
+			</Button>
+		</TableRow>		
+		<TableRow android:layout_weight="1" android:id="@+id/Row6">
+			<Button
+			   android:id="@+id/Count6"
+			   style="@style/Counter">
+			</Button>
+			<ImageButton
+			   android:id="@+id/Man6"
+			   style="@style/Man">
+			</ImageButton>
+			<Button
+			   android:id="@+id/Start6"
+			   style="@style/StartButton">
+			</Button>
+		</TableRow>		
+		<TableRow android:layout_weight="1" android:id="@+id/Row7">
+			<Button
+			   android:id="@+id/Count7"
+			   style="@style/Counter">
+			</Button>
+			<ImageButton
+			   android:id="@+id/Man7"
+			   style="@style/Man">
+			</ImageButton>
+			<Button
+			   android:id="@+id/Start7"
+			   style="@style/StartButton">
+			</Button>
+		</TableRow>		
+		<TableRow android:layout_weight="1" android:id="@+id/Row8">
+			<Button
+			   android:id="@+id/Count8"
+			   style="@style/Counter">
+			</Button>
+			<ImageButton
+			   android:id="@+id/Man8"
+			   style="@style/Man">
+			</ImageButton>
+			<Button
+			   android:id="@+id/Start8"
+			   style="@style/StartButton">
+			</Button>
+		</TableRow>
+	</TableLayout>
+
+</LinearLayout>

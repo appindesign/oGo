@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+     package="com.appindesign.ogo"
+     android:versionCode="7"
+     android:versionName="1.2">
+    
+    <supports-screens android:anyDensity="true" />
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application android:icon="@drawable/ogologo" android:label="@string/app_name">
+        <activity android:name=".Ogo"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+			android:name=".AlertPreferences" 
+			android:label="@string/menu_alerts">
+			<intent-filter>
+				<action android:name="com.appindesign.ogo"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
+        <activity
+			android:name=".EventPreferences" 
+			android:label="@string/menu_event_settings">
+			<intent-filter>
+				<action android:name="com.appindesign.ogo"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
+        <activity
+			android:name="com.appindesign.ogo.EventPreferences" 
+			android:label="@string/menu_event_settings">
+			<intent-filter>
+				<action android:name="com.appindesign.ogo"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
+        <activity
+			android:name=".Event2Preferences" 
+			android:label="@string/menu_event_settings">
+			<intent-filter>
+				<action android:name="com.appindesign.ogo"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
+        <activity
+			android:name=".Event3Preferences" 
+			android:label="@string/menu_event_settings">
+			<intent-filter>
+				<action android:name="com.appindesign.ogo"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
+        <activity
+			android:name=".Event4Preferences" 
+			android:label="@string/menu_event_settings">
+			<intent-filter>
+				<action android:name="com.appindesign.ogo"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
+        <activity
+			android:name=".ActiveEventPreferences" 
+			android:label="@string/menu_select_event">
+			<intent-filter>
+				<action android:name="com.appindesign.ogo"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
+        </application>
+</manifest>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+	<!-- Default event types -->
+	<string-array name="event_type">
+		<item name="type_1">@string/default_event_type_1</item>
+		<item name="type_2">@string/default_event_type_2</item>
+		<item name="type_3">@string/default_event_type_3</item>
+		<item name="type_4">@string/default_event_type_4</item>
+	</string-array>
+	<string-array name="event_index">
+		<item name="type_1">1</item>
+		<item name="type_2">2</item>
+		<item name="type_3">3</item>
+		<item name="type_4">4</item>
+	</string-array>
+			
+	<!-- Event options - intervals -->
+	<string-array name="interval_description">
+		<item name="interval_option_1">@string/interval_description_1</item>
+		<item name="interval_option_2">@string/interval_description_2</item>
+		<item name="interval_option_1">@string/interval_description_2b</item>		
+		<item name="interval_option_3">@string/interval_description_3</item>
+		<item name="interval_option_1">@string/interval_description_3b</item>		
+		<item name="interval_option_4">@string/interval_description_4</item>
+		<item name="interval_option_5">@string/interval_description_5</item>
+		<item name="interval_option_6">@string/interval_description_6</item>
+		<item name="interval_option_7">@string/interval_description_7</item>
+		<item name="interval_option_1">@string/interval_description_8</item>		
+	</string-array>	
+	<string-array name="interval_value">
+		<item name="interval_option_1">10000</item>
+		<item name="interval_option_2">30000</item>
+		<item name="interval_option_2b">45000</item>		
+		<item name="interval_option_3">60000</item>
+		<item name="interval_option_3b">90000</item>
+		<item name="interval_option_4">120000</item>
+		<item name="interval_option_5">180000</item>
+		<item name="interval_option_6">240000</item>
+		<item name="interval_option_7">300000</item> 
+		<item name="interval_option_8">600000</item>		
+	</string-array>
+
+	<!-- Event options - start button colours --> 
+	<string-array name="color_description">
+		<item name="color_1">@string/Black</item>
+		<item name="color_2">@string/Brown</item>
+		<item name="color_3">@string/Blue</item>
+		<item name="color_3b">@string/Light_Blue</item>
+		<item name="color_4">@string/Green</item>
+		<item name="color_4b">@string/Light_Green</item>
+		<item name="color_5">@string/Red</item>
+		<item name="color_6">@string/Orange</item>
+		<item name="color_7">@string/Yellow</item>
+		<item name="color_8">@string/White</item>
+	</string-array>
+	<string-array name="color_value">
+		<item name="color_1">bk_black</item>
+		<item name="color_2">bk_brown</item>
+		<item name="color_3">bk_blue</item>
+		<item name="color_3b">bk_light_blue</item>
+		<item name="color_4">bk_green</item>
+		<item name="color_4b">bk_light_green</item>
+		<item name="color_5">bk_red</item>
+		<item name="color_6">bk_orange</item>
+		<item name="color_7">bk_yellow</item>
+		<item name="color_8">bk_white</item> 
+	</string-array>
+
+</resources>

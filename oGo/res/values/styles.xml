@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	
+	<style name="Base">
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:textSize">@dimen/base_text</item>
+		<item name="android:layout_marginLeft">@dimen/margin_sides</item>
+		<item name="android:layout_marginTop">@dimen/margin</item>
+		<item name="android:layout_marginRight">@dimen/margin_sides</item>
+		<item name="android:paddingTop">@dimen/padding_top</item>
+		<item name="android:paddingBottom">@dimen/padding_bottom</item>
+		<item name="android:gravity">center</item>
+	</style>    
+    
+    <style name="Title" parent="Base">
+        <item name="android:layout_width">0dp</item>        
+        <item name="android:textSize">@dimen/small_text</item>
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:background">@drawable/bk_title</item>
+	</style>
+
+	<style name="Counter" parent="Base">	
+		<item name="android:layout_width">@dimen/narrow_button_width</item>
+	    <item name="android:background">@drawable/bk_plain</item>
+	    <item name="android:layout_weight">1</item>
+	</style>
+
+	<style name="Man" parent="Base">
+	    <item name="android:layout_width">@dimen/narrow_button_width</item>
+	    <item name="android:background">@drawable/bk_plain</item>
+	    <item name="android:layout_weight">1</item>		
+	</style>
+		
+	<style name="StartButton" parent="Base">	
+		<item name="android:layout_width">@dimen/wide_button_width</item>
+		<item name="android:layout_weight">4</item>				
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:shadowColor">@android:color/black</item>
+		<item name="android:shadowDx">1</item>	
+		<item name="android:shadowDy">1</item>	
+		<item name="android:shadowRadius">2</item>
+	</style>
+	
+</resources>

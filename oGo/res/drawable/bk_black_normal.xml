@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle">
+
+	<corners android:radius="@dimen/button_radius"/>
+	<stroke android:width="@dimen/border" android:color="@color/oGo_Black_Start"/>
+	<gradient
+		android:startColor="@color/oGo_Black_Start"
+		android:endColor="@color/oGo_Black_End"
+		android:angle="90"/>
+</shape>
